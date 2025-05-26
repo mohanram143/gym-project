@@ -1,0 +1,1488 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;     
+}
+
+.background{
+    position: relative;
+    min-width: 100vw;
+    min-height: 100vh;
+
+    /* <img src="photos/background/gym bg-1.jpg" alt="photos"> */
+
+}
+
+.background{
+
+}
+
+
+  .logo{
+    position: absolute;
+    top: 2%;
+    left: 8%;
+    
+}
+
+div.socialicons img{
+        height: 44px;
+    position: absolute;
+    left: 83%;
+    top: 38px
+}
+
+
+
+.nav {
+    position: absolute;
+ 
+    overflow: hidden;
+    
+    
+    
+    
+}
+.nav .navlist{
+    position: relative;
+    display: flex;
+    gap: 15px;
+    list-style: none; 
+    font-size: 1rem;
+    font-weight: 600;
+    min-width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    transition-duration: 3s;
+    transition-delay: 3ms;
+    transition-timing-function:linear cubic-bezier(0.84,-0.03, 0.51, 0.77);
+    
+    animation-name: navlist;
+    animation-delay: 2ms;
+    
+    animation-iteration-count: infinite;
+}
+
+div.navlist ul.navlist{
+    position: absolute;
+    top: 15%;
+    left: 4%;
+    /* top: 10%; */
+    /* left: 4%; */
+}
+
+.navlist a{
+    color: rgb(225, 225, 225);
+    font-family: "Oswald", sans-serif;
+}
+.navlist a:hover{
+    color: orange; 
+
+    
+}
+
+.heading1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    
+
+}
+div.heading1 h1{
+        padding-top: 25%;
+}
+ .heading1 span{
+    position: relative;
+    color: orange;
+}
+
+.container .heading1{
+    position: absolute;
+    width: 350px;
+    height: 50%; 
+    top: 28%;
+    left: 45%;
+    transform: translate(-50% -30%);
+    color: rgb(225, 225, 225);
+
+    transition-duration: 3s;
+    transition-delay: 3ms;
+    transition-timing-function:linear cubic-bezier(0.84,-0.03, 0.51, 0.77);
+    
+    animation-name: container;
+    animation-delay: 2ms;
+    
+    animation-iteration-count: infinite;
+}
+
+.shape{
+    
+    font-size: 26px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 6px;
+    margin-bottom: 18px;
+    align-items: center;
+    justify-content: center;    
+    position: relative;
+    
+    
+    transition-duration: 3s;
+    transition-delay: 3ms;
+    transition-timing-function:linear cubic-bezier(0.84,-0.03, 0.51, 0.77);
+    
+    animation-name: container;
+    animation-delay: 2ms;
+    
+    animation-iteration-count: infinite;
+
+}
+
+div.container div.shape{
+    position: absolute;
+    top: 40%;
+    left: 23%;
+    width: 100%;
+}
+
+.container .getinfo{
+    display: inline-block;
+    font-size: 14px;
+    padding: 17px 30px 16px;
+    color: #ffffff;
+    background: #f36100;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+div.container div.getinfo{
+    position: absolute;
+    top:71%;
+    left: 46%;
+}
+div.background img{
+    margin-bottom: 10%;
+}
+
+div.why1 h2 span{
+    color: orange;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+div.why2 h1 span{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+     color: #ffffff; 
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+
+
+div.container01 div.modern img{
+    max-width: 50%;
+    min-height: 50%;
+    position: relative;
+    display: flex;
+    margin-left: 21px;
+    padding-top: 20px;
+}
+
+
+.container01 .modern{
+    height:100px;
+    width:100px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.container01 {
+    height: 350px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+div.why div.why2{
+    margin-left: 40px;
+}
+
+div.why div.container01{
+    min-width: 380px;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding-top: 25px;
+    border-radius: 50px;
+}
+
+div.container01 div.modern{
+    margin-left: 36%;
+}
+
+div.modern h2 span{
+    position: absolute;
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+}
+
+div.container01 div.modern p{ 
+    position: absolute;
+    display: flex;
+    width: 300px;
+    padding-top: 100px;
+    margin-left: -81px;
+    color: rgb(255, 255, 255, 0.7)
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* color: #a9a9a9; */
+
+
+
+}
+
+div.modern h2 span{
+    position: absolute;
+    padding-top: 19px;
+}
+div.modern h2{
+    margin-left: -55px;
+}
+
+
+
+
+
+
+div.container02 div.healthy img{
+    max-width: 50%;
+    min-height: 50%;
+    position: relative;
+    display: flex;
+    margin-left: 21px;
+    padding-top: 20px;
+}
+
+
+.container02 .healthy{
+    height:100px;
+    width:100px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.container02 {
+    height: 350px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+div.why div.why2{
+    margin-left: 40px;
+}
+
+div.why div.container02{
+    min-width: 380px;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding-top: 25px;
+    border-radius: 50px;
+}
+
+div.container02 div.healthy{
+    margin-left: 36%;
+}
+
+div.healthy h2 span{
+    position: absolute;
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+}
+
+div.container02 div.healthy p{ 
+    position: absolute;
+    display: flex;
+    width: 300px;
+    padding-top: 100px;
+    margin-left: -81px;
+    color: rgb(255, 255, 255, 0.7);
+}
+
+div.healthy h2 span{
+    position: absolute;
+    padding-top: 19px;
+    min-width: 100%;
+}
+div.healthy h2{
+    margin-left: -55px;
+}
+
+
+
+
+div.container03 div.plan img{
+    max-width: 50%;
+    min-height: 50%;
+    position: relative;
+    display: flex;
+    margin-left: 21px;
+    padding-top: 20px;
+}
+
+
+.container03 .plan{
+    height:100px;
+    width:100px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.container03 {
+    height: 350px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+div.why div.why2{
+    margin-left: 40px;
+}
+
+div.why div.container03{
+    min-width: 380px;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding-top: 25px;
+    border-radius: 50px
+}
+
+div.container03 div.plan{
+    margin-left: 36%;
+}
+
+div.plan h2 span{
+    position: absolute;
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+}
+
+div.container03 div.plan p{ 
+    position: absolute;
+    display: flex;
+    width: 300px;
+    padding-top: 100px;
+    margin-left: -81px;
+    color: rgb(255, 255, 255, 0.7);
+}
+
+div.plan h2 span{  
+    position: absolute;
+    padding-top: 19px;
+    min-width: 100%
+}
+div.plan h2{
+    margin-left: -55px;
+}
+
+
+div.container03 div.plan h2{
+    margin-left: -93px;
+}
+
+
+
+
+
+
+
+
+div.container04 div.heart img{
+    max-width: 50%;
+    min-height: 50%;
+    position: relative;
+    display: flex;
+    margin-left: 21px;
+    padding-top: 20px;
+}
+
+
+.container04 .heart{
+    height:100px;
+    width:100px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.container04 {
+    height: 350px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+div.why div.why2{
+    margin-left: 40px;
+}
+
+div.why div.container04{
+    width: 380px;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding-top: 25px;
+    border-radius: 50px;
+}
+
+div.container04 div.heart{
+    margin-left: 36%;
+}
+
+div.heart h2 span{
+    position: absolute;
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+}
+
+div.container04 div.heart p{ 
+    position: absolute;
+    display: flex;
+    width: 300px;
+    padding-top: 100px;
+    margin-left: -81px;
+    color: rgb(255, 255, 255, 0.7);
+
+}
+
+div.heart h2 span{
+    position: absolute;
+    padding-top: 19px;
+    min-width: 100%;
+}
+div.heart h2{
+    margin-left: -55px;
+}
+
+
+
+::-webkit-scrollbar{
+    width:0px;
+}
+
+
+ div.why div.allcontainer2{
+    position: relative;  
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow-x: scroll;
+    /* background-color: #000000; */
+    overflow-y: hidden;
+    margin: auto;
+    padding: 0 30px;
+    overflow: scroll;
+    min-width: 380px;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding-top: 25px;
+    border-radius: 50px;      
+    cursor: pointer;
+    fill: currentcolor;
+    /* position: relative; */
+    transition-duration: 250ms;
+    transition-property: background-color, border-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.68, 0.06);
+ }
+
+
+
+ div.why div.container04 {
+    min-width: 380px;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding-top: 25px;
+    border-radius: 50px;
+ }
+
+
+
+/* Hover phase allcontainer2 */
+
+    div.container01:hover {
+        cursor:pointer;
+        /* background-color: orangered; */
+        transform: scale(1.1);
+        transition: transform 0.1s ease;
+        transition: all 0.3s ease-in-out;
+        /* transform-style: preserve-3d; */
+        /* aspect-ratio: 1s; */
+        transform: rotate(360deg);
+        transition-delay: 3ms;
+        -o-transition-timing-function:linear cubic-bezier(0.9,-0.14, 0, 1.72);
+        /* filter:drop-shadow(0 0 10px #fffdef) */
+        color: white;
+        text-shadow: 0px 0px 10px cyan;
+        text-shadow: 0px 0px 20px cyan;
+        text-shadow: 0px 0px 40px cyan;
+        text-shadow: 0px 0px 80px cyan;
+
+        box-shadow:10px 20px 20px 30px cyan;
+        
+     }
+
+
+      div.container02:hover {
+        cursor:pointer;
+        transform: scale(1.1);
+        transition: transform 0.1s ease;
+        transition: all 0.3s ease-in-out;
+        transform: rotate(360deg);
+        transition-delay: 3ms;
+        -o-transition-timing-function:linear cubic-bezier(0.9,-0.14, 0, 1.72);
+        color: white;
+        text-shadow: 0px 0px 10px cyan;
+        text-shadow: 0px 0px 20px cyan;
+        text-shadow: 0px 0px 40px cyan;
+        text-shadow: 0px 0px 80px cyan;
+        box-shadow:10px 20px 20px 30px cyan;
+        
+     }
+
+      div.container03:hover {
+        cursor:pointer;
+        transform: scale(1.1);
+        transition: transform 0.1s ease;
+        transition: all 0.3s ease-in-out;
+        transform: rotate(360deg);
+        transition-delay: 3ms;
+        -o-transition-timing-function:linear cubic-bezier(0.9,-0.14, 0, 1.72);
+        color: white;
+        text-shadow: 0px 0px 10px cyan;
+        text-shadow: 0px 0px 20px cyan;
+        text-shadow: 0px 0px 40px cyan;
+        text-shadow: 0px 0px 80px cyan;
+        box-shadow:10px 20px 20px 30px cyan;
+        
+     }
+
+    div.container04:hover {
+        cursor:pointer;
+        transform: scale(1.1);
+        transition: transform 0.1s ease;
+        transition: all 0.3s ease-in-out;
+        transform: rotate(360deg);
+        transition-delay: 3ms;
+        -o-transition-timing-function:linear cubic-bezier(0.9,-0.14, 0, 1.72);
+        color: white;
+        text-shadow: 0px 0px 10px cyan;
+        text-shadow: 0px 0px 20px cyan;
+        text-shadow: 0px 0px 40px cyan;
+        text-shadow: 0px 0px 80px cyan;
+        box-shadow:10px 20px 20px 30px cyan;
+        
+     }
+        ::-webkit-scrollbar{   /*scroll advance removing tag*/
+        width: 0px;}
+
+
+
+        .next{
+
+            color:orange;
+            position:absolute;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            height: 46px;
+            width:46px;
+            left: 95%;
+            top: 130%;
+            color: rgb(169, 169, 169);
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.1)
+        
+        
+      }
+
+    div.navmenu div.next p{
+         padding-top: 24%;
+         padding-left: 31%
+
+    }
+      
+    
+    div.why div.allcontainer2{
+            margin-bottom: -2%;
+            padding-bottom: 5%;
+    }
+
+ /* @media  all and (min-width: 900px){
+div.why div.allcontainer2{
+        position:relative;
+        display:block;
+        flex-wrap: wrap;
+    }
+ }
+     */
+
+
+
+    div.photos div.pic1 img{
+    position: absolute;
+    height: 400px;
+    left: 40px;
+    margin-top: 20px;
+    min-width: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    }
+
+    div.photos div.allpara{
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 41px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    min-width: 29.2vw;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 20px;
+   }
+
+   div.allpara div.para1 h2 span{
+        color: orange;
+
+   }
+   div.allpara div.para2 h1 span{
+    color: #ffffff;
+   }
+
+
+
+
+
+   
+    div.photos div.pic2 img{
+    position: absolute;
+    height: 400px;
+    left: 10px;
+    margin-top: 20px;
+    min-width: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    }
+
+    div.photos div.allpara1{
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 510px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    min-width: 29.2vw;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 20px;
+   }
+
+   div.allpara1 div.para3 h2 span{
+        color: orange;
+
+   }
+   div.allpara1 div.para3 h1 span{
+    color: #ffffff;
+   }
+
+
+
+div.allcontainer3 div.photos div.pic2{
+
+        position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    div.photos div.pic3 img{
+    position: absolute;
+    height: 400px;
+    left: -33px;
+    margin-top: 20px;
+    min-width: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    }
+
+    div.photos div.allpara2{
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 967px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    min-width: 29.2vw;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 20px;
+   }
+   div.allpara2 div.para4 h2 span{
+        color: orange;
+
+   }
+   div.allpara2 div.para5 h1 span{
+    color: #ffffff;
+   }
+
+
+
+div.allcontainer3 div.photos div.pic3{
+
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1000px;
+}
+
+
+
+
+
+div.photos div.pics1 img{
+    position: absolute;
+    
+    left: 20px;
+    margin-top: 600px;
+    min-width: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    min-width: 100vw;
+    min-height: 100vh;
+    }
+
+    div.photos div.allpara001{
+    position: absolute;
+    margin-top: 1453px;
+    margin-left: 20px;
+    min-width: 100vw;;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 20px;
+   }
+
+   div.allpara001 div.paras1 h2 span{
+        color: orange;
+
+   }
+   div.allpara001 div.paras2 h1 span{
+    color: #ffffff;
+   }
+
+
+
+
+
+
+
+
+div.photos div.pics2 img{
+    position: absolute;
+    
+    left: 20px;
+    margin-top: 1600px;
+    min-width: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    min-width: 100vw;
+    min-height: 100vh;
+    }
+
+    div.photos div.allpara002{
+    position: absolute;
+    margin-top: 2510px;
+    margin-left: 20px;
+    min-width: 100vw;;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 20px;
+   }
+
+   div.allpara002 div.paras01 h2 span{
+        color: orange;
+
+   }
+   div.allpara002 div.paras02 h1 span{
+    color: #ffffff;
+   }
+
+
+
+
+   div.box2{
+        margin-top: 2595px;
+   }
+
+
+
+
+
+   div.allsection div.section1{
+    width: 300px;
+    /* border: 1px solid black; */
+    border: 1px solid white;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 25px;
+    border-radius: 20px;
+    margin-right: 20px;
+   }
+
+
+   div.section1 h2 span{
+      color: #ffffff;  
+   }
+
+   div.allsection div.section1{
+    padding-left: 50px;
+    padding-top: 14px
+   }
+
+
+   div.allsection div.section1 h1{
+      font-size: 4rem;
+      color: orange;
+   }
+
+   div.allsection div.section1 p span{
+    color: rgb(255, 255, 255, 0.7);  
+   }
+
+   div.section1 p span{
+     color: rgb(255, 255, 255, 0.7);  
+   }
+
+
+   div.section1 div.enroll p.enroll{
+        border: 1px solid black;
+    height: 30px;
+    width: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    font-size: large;
+    background: rgba(255, 255, 255, 0.1); 
+    color: #ffffff;
+    border-radius: 10px;
+   }
+
+
+
+   
+    div.section1:hover {
+        cursor:pointer;
+        transform: scale(1.1);
+        transition: transform 0.1s ease;
+        transition: all 0.3s ease-in-out;
+        transform: rotate(360deg);
+        transition-delay: 3ms;
+        -o-transition-timing-function:linear cubic-bezier(0.9,-0.14, 0, 1.72);
+        color: white;
+        text-shadow: 0px 0px 10px cyan;
+        text-shadow: 0px 0px 20px cyan;
+        text-shadow: 0px 0px 40px cyan;
+        text-shadow: 0px 0px 80px cyan;
+        box-shadow:10px 20px 20px 30px cyan;
+        
+     }
+
+
+
+
+
+
+
+div.allsection div.section2{
+    width: 350px;
+    /* border: 1px solid black; */
+    border: 1px solid white;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 25px;
+    border-radius: 20px;
+    margin-right: 20px;
+   }
+
+
+   div.section2 h2 span{
+      color: #ffffff;  
+   }
+
+   div.allsection div.section2{
+    padding-left: 50px;
+    padding-top: 14px
+   }
+
+
+   div.allsection div.section2 h1{
+      font-size: 4rem;
+      color: orange;
+   }
+
+   div.allsection div.section2 p span{
+    color: rgb(255, 255, 255, 0.7);  
+   }
+
+   div.section2 p span{
+     color: rgb(255, 255, 255, 0.7);  
+   }
+
+
+   div.section2 div.enroll p.enroll{
+        border: 1px solid black;
+    height: 30px;
+    width: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    font-size: large;
+    background: rgba(255, 255, 255, 0.1); 
+    color: #ffffff;
+    border-radius: 10px;
+   }
+
+
+
+   
+    div.section2:hover {
+        cursor:pointer;
+        transform: scale(1.1);
+        transition: transform 0.1s ease;
+        transition: all 0.3s ease-in-out;
+        transform: rotate(360deg);
+        transition-delay: 3ms;
+        -o-transition-timing-function:linear cubic-bezier(0.9,-0.14, 0, 1.72);
+        color: white;
+        text-shadow: 0px 0px 10px cyan;
+        text-shadow: 0px 0px 20px cyan;
+        text-shadow: 0px 0px 40px cyan;
+        text-shadow: 0px 0px 80px cyan;
+        box-shadow:10px 20px 20px 30px cyan;
+        
+     }
+        
+
+
+
+
+
+   div.allsection div.section3{
+    width: 300px;
+    /* border: 1px solid black; */
+    border: 1px solid white;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 25px;
+    border-radius: 20px;
+   }
+
+
+   div.section3 h2 span{
+      color: #ffffff;  
+   }
+
+   div.allsection div.section3{
+    padding-left: 50px;
+    padding-top: 14px
+   }
+
+
+   div.allsection div.section3 h1{
+      font-size: 4rem;
+      color: orange;
+   }
+
+   div.allsection div.section3 p span{
+    color: rgb(255, 255, 255, 0.7);  
+   }
+
+   div.section3 p span{
+     color: rgb(255, 255, 255, 0.7);  
+   }
+
+
+   div.section3 div.enroll p.enroll{
+        border: 1px solid black;
+    height: 30px;
+    width: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    font-size: large;
+    background: rgba(255, 255, 255, 0.1); 
+    color: #ffffff;
+    border-radius: 10px;
+   }
+
+
+
+   
+    div.section3:hover {
+        cursor:pointer;
+        transform: scale(1.1);
+        transition: transform 0.1s ease;
+        transition: all 0.3s ease-in-out;
+        transform: rotate(360deg);
+        transition-delay: 3ms;
+        -o-transition-timing-function:linear cubic-bezier(0.9,-0.14, 0, 1.72);
+        color: white;
+        text-shadow: 0px 0px 10px cyan;
+        text-shadow: 0px 0px 20px cyan;
+        text-shadow: 0px 0px 40px cyan;
+        text-shadow: 0px 0px 80px cyan;
+        box-shadow:10px 20px 20px 30px cyan;
+        
+     }
+
+
+
+
+     
+    div.allsection{
+    position: relative;
+    display: flex;
+     justify-content: center;    
+     align-items: center; 
+     
+
+}
+
+span hr{
+    margin-top: 50px;
+}
+
+
+div.allfooter div.location img{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 50px;
+    background: orange;
+    position: absolute;
+    left: 50px;
+    margin-top: 30px;
+    
+}
+
+div.allfooter div.locpara{
+    margin-left: 90px;
+    position: absolute;
+    padding-left: 20px;
+    margin-top: 50px;
+    color: rgb(255, 255, 255, 0.7);
+
+}
+
+
+
+
+
+
+div.allfooter div.phone img{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 50px;
+    background: orange;
+    position: absolute;
+    left: 500px;
+    margin-top: 30px;
+}
+
+div.allfooter div.phpara{
+    margin-left: 550px;
+    position: absolute;
+    padding-left: 20px;
+    margin-top: 50px;
+    color: rgb(255, 255, 255, 0.7);
+}
+
+
+
+
+
+
+
+
+
+div.allfooter div.email img{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 50px;
+    background: orange;
+    position: absolute;
+    left: 830px;
+    margin-top: 30px;
+}
+
+div.allfooter div.mailpara{
+    margin-left: 870px;
+    position: relative;
+    padding-left: 20px;
+    margin-top: 50px;
+    color: rgb(255, 255, 255, 0.7);
+}
+
+div.allfooter{
+    position: relative;
+    display: flex;
+    margin-left: 45px;
+}
+
+
+
+div.logo1{
+    position: absolute;
+    margin-top: 40px;
+    left: 70px;
+}
+
+div.logo1 p{
+    position: absolute;
+    min-width: 45vh;
+    margin-top: 99px;
+    color: rgb(255, 255, 255, 0.7);
+    font-family: sans-serif;
+    margin-left: 67px
+
+}
+
+
+div.lastcontainer div.footer1{
+    position: absolute;
+    margin-top: 79px;
+    margin-left: 465px;
+    
+}
+
+div.lastcontainer div.footer2{
+    position: absolute;
+    margin-top: 79px;
+    margin-left: 700px;
+
+}
+
+div.lastcontainer div.tips{
+    position: absolute;
+    width: 30vw;    
+    left: 900px;
+    margin-top: 80px;
+
+
+}
+div.lastcontainer div.footer1 h2{
+    color: #ffffff;
+}
+
+div.lastcontainer div.footer1 p{
+        color: rgb(255, 255, 255, 0.7);
+}
+
+
+div.lastcontainer div.footer2 h2{
+    color: #ffffff;
+}
+
+div.lastcontainer div.footer2 p{
+        color: rgb(255, 255, 255, 0.7);
+}
+
+
+
+div.lastcontainer div.tips h2{
+    color: #ffffff;
+}
+
+
+
+div.lastcontainer div.tips p{
+        color: rgb(255, 255, 255, 0.7);
+}
+
+.line{
+    color:#ffffff;
+}
+
+div.line hr{    
+    position: relative;
+    margin-top: 280px;
+    margin-bottom: 20px;
+    width: 1143px;
+    margin-left: 129px;
+}
+
+div.lastone a{
+        position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(196, 196, 196);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 2;
+    text-decoration: none;
+
+}
+
+div.lastone a span{
+    color:red;
+}
+
+div.navlist ul.navlist li a{
+        text-decoration: none;
+
+}
+div.navlist ul.navlist li ::marker{
+    text-decoration: none;
+}
+
+div.allcontainer2 div.coontainer02{
+    display: flex;
+    flex-wrap: wrap
+}
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:495px){
+    div.navlist ul.navlist{
+        display:block;
+       
+       
+    }
+        
+    div.navlist ul.navlist li{
+            /* margin-bottom: 5px; */
+             text-decoration: none;
+        }
+
+    div.why2 h1 span{
+        font-size: 1rem;
+    }
+
+    div.why div.allcontainer2{
+        display: block;
+        min-width: 90vh;
+        margin-left: -45px;
+        margin-top: -40px;
+    }
+
+    div.navmenu div.next p{
+       padding-left: 20%; 
+    }
+
+
+    div.photos div.pics1 img{
+            min-width: 100vw;
+    }
+
+    div.phots div.allpara001{
+            margin-top: 1192px;
+    }
+    div.container div.heading1 h1{
+            margin-left: -155px;
+    }
+    div.conntainer div.shape{
+            left: -20px;
+    }
+
+     div.allcontainer003 div.photos div.allpara{
+    /* position: relative; */
+    margin-top: 10px;
+    }
+/* edit */
+
+    div.allcontainer3 div.photos div.pic1 img{
+        position: relative;
+    }
+    div.allcontainer3 div.photos div.allpara{
+            margin-top: 10px;
+    }
+    div.allcontainer3 div.photos div.pic2 img{
+    /* position: relative;
+    margin-left: -500px;
+    margin-top: 92px;
+    padding-left: 21px;*/
+
+    margin-left: -500px;
+    margin-top: 85px;
+    padding-left: 22px
+    } 
+    div.allcontainer3 div.photos div.allpara1{
+        margin-left:10px;
+        margin-top: 490px;
+    }
+
+    div.allcontainer3 div.photos div.pic3 img{
+    /* position: relative;
+    margin-left: -500px;
+    margin-top: 92px;
+    padding-left: 21px;*/
+    margin-top: 583px;
+    margin-left: -953px;
+    } 
+    div.allcontainer3 div.photos div.allpara1{
+        margin-left:10px;
+        margin-top: 490px;
+    }
+
+    div.photos div.pics1 img{
+        margin-top: 1000px;
+    }
+
+    div.photos div.pics2 img{
+            margin-top: 1700px;
+    }
+    div.allcontainer4 div.photos div.allpara001{
+            margin-top: 1592px;
+    }
+    div.allcontainner3 div.photos div.allphotos{
+            display: none;
+    }
+
+    div.allsection{
+        display: block;
+    /* position: relative;
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+    margin-right: -32px; */
+    }
+
+    div.allsection div.section1{
+    min-width: 59vh;
+    padding-left: 70px;
+    }
+    div.allsection div.section3{
+        min-width: 59vh;
+        padding-left: 68px;
+    }
+    div.allfooter div.allfooter{
+        margin-left: -69px;
+        display: block;
+    }
+
+    div.allfooter div.phone img{
+        position: relative;
+        margin-top: 100px;
+        margin-left: -450px;
+    }
+
+    div.allfooter div.allfooter div.phpara{
+        margin-top: -36px;
+        margin-left: 91px;
+    }
+
+    div.allfooter div.email img{
+            margin-left: -777px;
+    }
+    div.allfooter div.mailpara{
+        margin-bottom: 10px;
+        margin-left: 97px;
+    }
+
+    div.lastcontainer div.logo1{
+            margin-left: -95px;
+    }
+
+    div.lastcontainer div.logo1 div.logo1 img{
+            padding-left: 100px;   
+    }
+
+    div.lastcontainer div.footer1{
+    position: relative;
+    margin-left: 45px;
+    margin-top: 30px;
+    padding-top: 246px;
+
+    }
+
+    div.lastcontainer div.footer2{
+        margin-top: 24px;
+        margin-left: 44px;
+    }
+
+    div.lastcontainer div.tips{
+    width: 100vw;
+    position: relative;
+    margin-left: -857px;
+    padding-top: 161px;
+    margin-bottom: -179px;
+    }
+
+    div.lastone a{
+    font-size: 11px;
+    padding-bottom: 20px;
+    }
+
+    div.line hr{
+        width: auto;
+        margin-left: 40px;
+    }
+    
+    div.navmenu div.socialicons img{
+     position: absolute;
+    left: 60%;
+    top: 2%;
+    }
+
+    nav.nav div.navlist ul.navlist{
+        display: inline-flex;
+        font-size: small;
+    }
+    div.container div.shape{
+            left: 5%;
+    }
+
+
+}
